@@ -1,1 +1,42 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "PressStart2P";
+  --accent-color: #000;
+  --title-text: bold;
+  --card-text: normal;
+  --text-color: #000;
+  --button-text-color: #fff;
+  --background-color: #fff;
+  --border-color: #000;
+  --background-image: repeating-linear-gradient(
+      180deg,
+      #d3d3d3 0 2px,
+      rgba(0, 0, 0, 0) 2px 4px
+    ),
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --heart-contour-color: #000;
+  --heart-fill-color: #ff0000;
+  --text-shadow: #fff;
+  --backdrop-color: rgba(64, 64, 64, 50%);
+}
+
+/*@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color: #00CC14;
+		--background-color: #000;
+		--border-color: #00CC14;
+		--accent-color: #00CC14;
+		--background-image: 
+			repeating-linear-gradient(180deg,#d3d3d3 0 2px,rgba(0, 0, 0, 0) 2px 4px),
+			repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(0, 0, 0, 0) 2px 4px),
+			linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+			background-size: cover;
+		--button-text-color: #00CC14;
+		--heart-contour-color: #00CC14;
+		--heart-fill-color: #ff0000;
+		--backdrop-color: rgba(0, 204, 20, 50%);
+		--text-shadow: #000;
+	}
+  }*/
