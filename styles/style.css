@@ -300,7 +300,7 @@
 }
 
 .dialog:is([open]) {
-  max-inline-size: 341px;
+  width: 341px;
   background-color: var(--background-color);
   height: 191px;
   padding: 30px 42px;
@@ -313,7 +313,7 @@
 
 @media (width >=768px) {
   .dialog:is([open]) {
-    max-inline-size: 353px;
+    width: 353px;
     padding: 30px;
   }
 }
